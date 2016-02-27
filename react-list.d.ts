@@ -15,7 +15,7 @@ declare module "react-list" {
     threshold?: Number;
     type?: any;
     useTranslate3d?: Boolean;
-    
+
     // How to force a call to itemRenderer?
     // https://github.com/orgsync/react-list/issues/36
     updateWhenThisValueChanges?: any;
