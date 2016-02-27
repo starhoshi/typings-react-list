@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "noEmit": true,
+    "jsx": "react"
+  },
+  "files": [
+  ],
+  "excludes":[
+  ]
