@@ -14,7 +14,11 @@ declare module "react-list" {
     scrollParentGetter?: Function;
     threshold?: Number;
     type?: any;
-    useTranslate3d?: Boolean
+    useTranslate3d?: Boolean;
+    s
+    // How to force a call to itemRenderer?
+    // https://github.com/orgsync/react-list/issues/36
+    updateWhenThisValueChanges?: any;
   }
 
   interface ReactList extends React.ComponentClass<IReactListProps> {
